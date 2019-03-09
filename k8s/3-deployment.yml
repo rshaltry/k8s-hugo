@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: website
-        image: rshaltry/hugo-blog:0.0.1
+        image: DOCKERHUBUSER/hugo-blog:0.0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
